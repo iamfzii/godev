@@ -1,0 +1,41 @@
+body 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.header 
+{
+    text-align: center;
+}
+.mytable
+{
+    text-align: center;
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 0.9cm;
+    width: 80%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+    margin-top: 120px;
+    margin-left: 130px;
+    border-radius: 20px;
+
+}
+
+.mytable thead tr
+{
+    background-color: rgb(13, 201, 138);
+    color: white;
+
+}
+
+.mytable td, .mytable th
+{
+    padding: 12px 15px;
+}
+
+.mytable tbody tr
+{
+    border-bottom: 2px solid green;
+}
