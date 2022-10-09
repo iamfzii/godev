@@ -1,0 +1,676 @@
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-image: linear-gradient(to right, #F9D998 , #AC6CFF );
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 50px;
+    
+  }
+
+  .calicon
+  {
+    padding-left: 50px;
+    padding-top: 15px;
+    border-radius: 10px;
+  }
+
+  .imgtr img
+  {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    object-fit: fit;
+
+    
+  }
+
+  .amount
+  {
+    border: none;
+position: absolute;
+width: 221px;
+height: 60px;
+left: 310px;
+top: 350px;
+
+background: #FFFFFF;
+outline: none;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  #salary-selection
+  {
+    color: grey;
+    outline: none;
+    border: none;
+    position: absolute;
+width: 240px;
+height: 62px;
+left: 610px;
+top: 352px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  #calculate-btn
+  {
+    position: absolute;
+width: 221px;
+height: 62px;
+left: 910px;
+top: 350px;
+padding: 2px;
+outline: none;
+font-size:25px;
+cursor: pointer;
+border: none;
+background: rgba(173, 109, 254, 0.7);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+  }
+
+.tophead
+{
+    position: absolute;
+width: 710px;
+height: 41px;
+left: 440px;
+top: 199px;
+
+padding: 2px;
+
+text-align: center;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #ffffff;
+
+background: linear-gradient(90deg, rgba(186, 128, 236, 0.63) 0%, rgba(41, 41, 41, 0.63) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.minihead
+{
+    position: absolute;
+width: 1117px;
+height: 39px;
+left: 300px;
+top: 268px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0.07em;
+
+color: #353535;
+
+}
+  
+.terms
+{
+    position: absolute;
+width: 656px;
+height: 19px;
+left: 500px;
+top: 427px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.1em;
+
+color: #353535;
+}
+
+.budget
+{
+    background: url('https://api.iconify.design/bytesize/book.svg?color=%23b375f6') no-repeat center center / contain;
+    position: absolute;
+width: 101px;
+height: 84px;
+left: 326px;
+top: 750px;
+transition: all 0.3s ease;
+
+}
+
+.budget-2
+{
+    background: url('https://api.iconify.design/carbon/document.svg?color=%23b375f6') no-repeat center center / contain;
+    position: absolute;
+width: 101px;
+height: 84px;
+left: 1100px;
+top: 750px;
+
+}
+
+.budget-head
+{
+position: absolute;
+width: 418px;
+height: 33px;
+margin-left: -130px;
+top: 70px;
+padding-top: 5px;
+
+text-align: center;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+
+}
+
+.budget h1
+{
+  position: absolute;
+width: 415px;
+height: 36px;
+margin-left: -150px;
+top: 70px;
+
+background: linear-gradient(90deg, rgba(186, 128, 236, 0.63) 0%, rgba(244, 210, 159, 0.63) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.budget-para
+{
+  position: absolute;
+width: 500px;
+height: 33px;
+margin-left: -195px;
+top: 120px;
+padding-top: 5px;
+text-align: center;
+
+font-family: 'Open Sans';
+font-style: normal;
+color: #2b2b2b;
+
+}
+
+.budget a
+{
+  position: absolute;
+  width: 150px;
+  height: 33px;
+  margin-left: -20px;
+  top: 200px;
+  text-align: center;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #AD6DFE;
+}
+
+/* Second part styling */
+
+.budget-head-2
+{
+position: absolute;
+width: 418px;
+height: 33px;
+margin-left: -130px;
+top: 70px;
+padding-top: 5px;
+
+text-align: center;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #000000;
+
+}
+
+.budget-2 h1
+{
+  position: absolute;
+width: 350px;
+height: 36px;
+margin-left: -130px;
+top: 70px;
+
+background: linear-gradient(90deg, rgba(186, 128, 236, 0.63) 0%, rgba(244, 210, 159, 0.63) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.budget-para-2
+{
+  position: absolute;
+width: 500px;
+height: 33px;
+margin-left: -195px;
+top: 120px;
+padding-top: 5px;
+text-align: center;
+
+font-family: 'Open Sans';
+font-style: normal;
+color: #2b2b2b;
+
+}
+
+#englishdownload
+{
+  position: absolute;
+  width: 210px;
+  height: 33px;
+  margin-left: 70px;
+  top: 200px;
+  text-align: center;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #AD6DFE;
+}
+
+#urdudownload
+{
+  position: absolute;
+  width: 190px;
+  height: 33px;
+  margin-left: -130px;
+  top: 200px;
+  text-align: center;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #AD6DFE;
+}
+
+.taxlabheading h1
+{
+position: absolute;
+width: 753px;
+height: 40px;
+left: 410px;
+margin-top: 50px;
+
+display: flex;
+justify-content: center;
+text-align: center;
+
+background: linear-gradient(90deg, rgba(186, 128, 236, 0.63) 0%, rgba(244, 210, 159, 0.63) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.collapsible {
+  background-color: #e7e7e7;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: left;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  color: #666666;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #e7e7e7;
+}
+
+.contactushead 
+{
+position: absolute;
+width: 200px;
+left: 700px;
+padding: 5px;
+display: flex;
+justify-content: center;
+text-align: center;
+background: linear-gradient(90deg, rgba(186, 128, 236, 0.63) 0%, rgba(244, 210, 159, 0.63) 100%);
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contactarea 
+{
+  display: flex;
+  width: auto;
+}
+
+.contactarea img
+{
+  width: 100%;
+}
+
+.contact-content-left
+{
+  margin-top: 240px;
+  margin-left: 150px;
+  position: absolute;
+}
+
+.contact-content-left h1
+{
+  width: 370px;
+  padding: 5px;
+  text-align: center;
+  margin-left: 95px;
+  background: linear-gradient(90deg, rgba(186, 128, 236, 0.63) 0%, rgba(244, 210, 159, 0.63) 100%);
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-content-left p
+{
+  font-size: 20px;
+}
+
+.contact-content-right
+{
+  height: 450px;
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  left: 1050px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+#name
+{
+position: absolute;
+width: 370px;
+height: 60px;
+margin-bottom: 337px;
+
+background: rgba(255, 255, 255, 0.55);
+border: 2px s ;
+border: 2px solid rgba(37, 37, 37, 0.4)  ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#email
+{
+position: absolute;
+width: 370px;
+height: 60px;
+margin-bottom: 180px;
+
+background: rgba(255, 255, 255, 0.55);
+border: 2px s ;
+border: 2px solid rgba(37, 37, 37, 0.4)  ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#query-input
+{
+position: absolute;
+width: 370px;
+height: 180px;
+margin-top: 95px;
+background: rgba(255, 255, 255, 0.55);
+border: 2px s ;
+border: 2px solid rgba(37, 37, 37, 0.4)  ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#asknowbtn
+{
+  position: absolute;
+width: 196px;
+height: 49px;
+border: 2px solid rgba(37, 37, 37, 0.3)  ;
+background: rgba(173, 109, 254, 0.7);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin-top: 360px;
+cursor: pointer;
+}
+
+.aboutus h1
+{
+position: relative;
+width: 180px;
+left: 700px;
+padding: 5px;
+justify-content: center;
+text-align: center;
+background: linear-gradient(90deg, rgba(186, 128, 236, 0.63) 0%, rgba(244, 210, 159, 0.63) 100%);
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutus p
+{
+  width: 1050px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 280px;
+  margin-top:20px;
+  font-family: 'Open Sans';
+}
+
+.end-bar
+{
+width: 100%;
+height: 180px;
+background: linear-gradient(90deg, #AC6CFF 0%, #F9D998 100%);
+box-shadow: 0px 4px 4px #F9D998;
+border-radius: 10px;
+}
+
+.fblogo
+{
+  width: 40px;
+  height: 38px;
+  position: absolute;
+  background: url('https://api.iconify.design/logos/facebook.svg') no-repeat center center / contain;
+  border: 6px solid #FFFFFF;
+  border-radius: 25px;
+  margin-left: 700px;
+  margin-top: 10px;
+}
+
+.instalogo
+{
+  position: absolute;
+  background: url('https://img.icons8.com/fluency/48/000000/instagram-new.png') no-repeat center center / contain;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 800px;
+  
+  border: 6px solid #FFFFFF;
+  border-radius: 35px;
+  margin-top: 10px;
+}
+
+.end-bar p
+{
+  position: absolute;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 530px;
+  padding-top: 50px;
+}
+
+.author p
+{
+position: absolute;
+width: 200px;
+left: 150px;
+padding-top: 80px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.author img
+{
+  left: 630px;
+padding-top: 140px;
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) 
+{
+  .topnav{
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgtr img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .tophead {
+    width: 400px;
+    height: 30px;
+    left: 105px;
+    top: 80px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+  .minihead{
+    width: 500px;
+    left: 55px;
+    top: 120px;
+    font-size: 11px;
+    text-align: center;
+    
+    }
+
+  .amount{
+  width: 130px;
+height: 35px;
+left: 110px;
+top: 165px;
+font-size: 10px;
+}
+  #salary-selection{
+    width: 130px;
+    height: 35px;
+    left: 270px;
+    top: 167px;
+    font-size: 10px;
+
+  }
+
+  #calculate-btn{
+    width: 80px;
+height: 35px;
+left: 420px;
+top: 166px;
+font-size: 14px;
+  }
+  .terms{
+    width: 500px;
+    left: 55px;
+    top: 200px;
+    font-size: 11px;
+    text-align: center;
+  }
+  
+
+
+}

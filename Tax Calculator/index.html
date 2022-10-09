@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="Viewport" content="width=device=width, initial-scale=1.0">
+        <title>Tax Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="topnav" id="topnav" >
+            <img class="calicon" src="Windows_Calculator_icon.png" style="height:30px; width: 30px; ">
+            <a href="#aboutus">About</a>
+            <a href="#contactus">Contacts</a>
+            <a href="#taxslabs">Tax Slabs</a>
+            <a href="#topnav">Calculator</a></b>
+          </div>
+          <div class="imgtr">
+            <img src="tax.jpg">
+            <div>            
+                <h1 class="tophead" id="calculator"><b>TAX CALCULATOR PAKISTAN 2022-2023</b></h1>
+                <p class="minihead">This is latest tax calculator as per 2022-2023 budget presented by Government Of Pakistan.</p>
+                <input class="amount" id="amount" type="text" placeholder="Enter Amount here">
+                <select id="salary-selection">
+                    <option id="monthly">&nbsp;Monthly</option>
+                    <option id="anually">&nbsp;Anually</option>
+                </select>
+                <button id="calculate-btn" style="color:white;" onclick="taxcal()" >Calculate</button>
+                <p class="terms">* Last updated : 30th June 2022. Check our Terms & Conditions</p>
+                    </div>
+          </div>
+<br><br>
+    <div>
+        <div style="width:50% ; display: flex;">
+             <div class="budget">
+                    <h1 class="budget-head">Basic Concepts of Income Tax</h1>
+                    <p class="budget-para">You can find the fundamentals of income tax including taxable and none taxable sources. This brochure is to assist taxpayers from Goverment Of Pakistan.</p>
+                    <a href="https://download1.fbr.gov.pk/Docs/20186291463739494BasicConceptsIncomeTax.pdf" target="_blank">Download PDF</a>  
+            </div>
+        </div>
+        <div style="width:50% ; display:flex">
+          <div class="budget-2">
+
+            <h1 class="budget-head-2">Budget Document(PDF)</h1>
+            <p class="budget-para-2">You can find Federal Budget in Brief 2022-23. The fiscal year 2022-23 along with budget estimates and revised estimates for the fiscal year 2022-23 from Goverment Of Pakistan.</p>
+            <a id="urdudownload" href="https://www.finance.gov.pk/budget/Budget_2022_23/Budget_in_Brief_Urdu.pdf" target="_blank">Download PDF(Urdu)</a>
+            <a id="englishdownload" href="https://www.finance.gov.pk/budget/Budget_2022_23/Budget_in_Brief_English.pdf" target="_blank">Download PDF(English)</a>
+            
+          </div>
+        </div>  
+    </div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="taxlab" id="taxslabs" style="background-color:#F7F7F7 ;width: 100%; height: 640px;">
+            <div class="taxlabheading">
+                <h1>Salary Tax Slabs According to Budget 2022-23</h1>
+            </div>
+                <div class="tax-slab-accordion">
+                    <button class="collapsible" style="  margin-left: 100px; width: 85%;  margin-top: 130px;">&ensp; Salary income is under PKR 600,000</button>
+<div class="content" style="margin-left: 100px;width: 85%;">
+  <p>&ensp; &ensp; If the annual salary income does not exceed PKR. 600,000 then the rate of the income tax is 0%.</p>
+</div>
+
+                    <button class="collapsible" style="  margin-left: 100px; width: 85%;  margin-top: 20px;">&ensp; Salary income exceeds PKR 600,000 but is under PKR 1.2 Million</button>
+<div class="content" style="margin-left: 100px;width: 85%;">
+  <p>&ensp; &ensp; If the annual salary income exceeds PKR. 600,000 but does not exceed PKR. 1.2 million then the rate of income tax is 2.5% of the amount exceeding PKR. 600,000.</p>
+</div>
+
+<button class="collapsible" style="  margin-left: 100px; width: 85%;  margin-top: 20px;">&ensp; Salary income exceeds PKR 1.2 Million but is under PKR 2.4 Million</button>
+<div class="content" style="margin-left: 100px;width: 85%;">
+  <p>&ensp; &ensp; If the taxable annual income exceeds PKR. 1.2 million but does not exceed PKR. 2.4 million then the rate of income tax is PKR. 15,000 + 12.5% of the amount exceeding PKR. 1.2 million.</p>
+</div>
+
+<button class="collapsible" style="  margin-left: 100px; width: 85%;  margin-top: 20px;">&ensp; Salary income exceeds PKR 2.4 Million but is under PKR 3.6 Million</button>
+<div class="content" style="margin-left: 100px;width: 85%;">
+  <p>&ensp; &ensp; If the annual salary income exceeds PKR. 2.4 million but does not exceed PKR. 3.6 million then the rate of income tax is flat PKR 165,000 + 20% of the amount exceeding PKR. 2.4 million.</p>
+</div>
+
+<button class="collapsible" style="  margin-left: 100px; width: 85%;  margin-top: 20px;">&ensp; Salary income exceeds PKR 3.6 Million but is under PKR 6 Million</button>
+<div class="content" style="margin-left: 100px;width: 85%;">
+  <p>&ensp; &ensp; If the annual salary income exceeds PKR. 3.6 million but does not exceed PKR. 6 million then the rate of income tax is flat PKR. 405,000 + 25% of the amount exceeding PKR. 3.6 million.</p>
+</div>
+
+<button class="collapsible" style="  margin-left: 100px; width: 85%;  margin-top: 20px;">&ensp; Salary income exceeds PKR 6 Million but is under PKR 12 Million</button>
+<div class="content" style="margin-left: 100px;width: 85%;">
+  <p>&ensp; &ensp; If the annual salary income exceeds PKR 6 Million but does not exceed PKR. 12 million then the rate of income tax is flat PKR 1.005 million + 32.5% of the amount exceeding PKR. 6 million.</p>
+</div>
+
+<button class="collapsible" style="  margin-left: 100px; width: 85%;  margin-top: 20px;">&ensp; Salary income exceeds PKR 12 million</button>
+<div class="content" style="margin-left: 100px;width: 85%;">
+  <p>&ensp; &ensp; If the annual salary income exceeds PKR. 12 million then the rate of income tax is flat PKR 2.955 million + 35% of the amount exceeding PKR. 12 million.</p>
+</div>
+
+                </div>
+             </div>
+
+<br><br>
+             <div>
+                <h1 class="contactushead" id="contactus">Contact Us</h1>
+            </div>
+<br><br><br><br><br><br><br>
+                <div class="contactarea">
+                    <img src="tax.jpg">
+                    <div class="contact-content-left">
+                        <h1>Submit your tax queries?</h1>
+                        <p>
+                            Contact us for your queries and questions regarding service and taxation.
+                        </p>
+                    </div>
+                    <div class="contact-content-right">
+                        <input type="text" name="name" id="name" placeholder="&ensp; Full Name">
+                        <input type="email" name="email" id="email" placeholder="&ensp; Email Address">
+                        <input type="text" name="query" id="query-input" placeholder="&ensp; your query?">
+                        <button id="asknowbtn">Ask Now</button>
+                    </div>
+                </div>
+<br><br>
+            <div class="aboutus" id="aboutus">
+                <h1>About Us</h1>
+
+                <p>We develop high-quality websites, apps and desktop apps. We also provide Cloud and DevOps support for your software/company. Our aim is to bring your software concept from development to cloud. We are fully agile so we present your software and take feedback from you regularly. We provide best after service support to our clients.</p>
+            </div>
+          
+            <div class="end-bar">
+                <div class="fblogo">
+                </div>
+                <div class="instalogo">
+                </div>
+                <p><b>Designed and Developed by DevelopEirs © 2022 DevelopEirs</b></p>
+            <div class="author">    
+                <p>Muhammad Fazeel</p>
+                <img src="line.png" alt="">
+            </div>
+            </div>
+
+
+  
+
+
+
+
+
+             <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+                
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.maxHeight){
+                      content.style.maxHeight = null;
+                    } else {
+                      content.style.maxHeight = content.scrollHeight + "px";
+                    } 
+                  });
+                }
+                </script>
+                <script src="app.js"></script>
+
+    </body>
+</html>
