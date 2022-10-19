@@ -1,13 +1,18 @@
 const amt = document.getElementById("amount").value;
 const btn = document.getElementById("calculate-btn")
 btn.addEventListener("click",() =>{});
-const duration = document.getElementById("salary-selection").value;
 
 function taxcal(){
-    const amt = document.getElementById("amount").value;
+    var amt = document.getElementById("amount").value;
+    var dur = document.getElementById("salary-selection").value
+    console.log(dur)
 
+    if(dur == "monthly")
+    {
+            amt = amt*12
+    }    
 
-    if (amt < 600001) {
+    if (amt <=600000) {
         alert("No tax")
     }
         else if(amt>=600000 && amt<=1200000){
